@@ -6,3 +6,47 @@
     --boo-success-light:#1aba9b;
 }
 
+.jumbo{
+    background-color: var(--boo-success-light);
+}
+
+.portfolio{
+    padding: 3rem;
+}
+.about{
+    background-color: var(--boo-success-light);
+    padding: 3rem;
+}
+
+.contact_me{
+    height: 100px;
+}
+.footer_top{
+    background-color: var(--boo-primary-dark);
+}
+
+.footer_bot{
+    background-color: var(--boo-primary-darker);;
+}
+.shapes-dark{
+    color: var(--boo-primary-dark);
+}
+
+
+.linea-dark{
+    height: 5px;
+    width: 100px;
+    background-color: var(--boo-primary-dark);
+}
+.shapes-dark{
+    color: var(--boo-primary-dark);
+}
+
+.linea-white{
+    height: 5px;
+    width: 100px;
+    background-color: var(--boo-white);
+}
+.shapes-white{
+    color: var(--boo-white);
+}
