@@ -5,7 +5,13 @@
     --boo-white:#fff;
     --boo-success-light:#1aba9b;
 }
-
+footer a{
+    color: #1aba9b;
+}
+#site_header{
+    background-color: var(--boo-primary-darker);
+    height: 100px;
+}
 .jumbo{
     background-color: var(--boo-success-light);
 }
@@ -32,7 +38,6 @@
     color: var(--boo-primary-dark);
 }
 
-
 .linea-dark{
     height: 5px;
     width: 100px;
@@ -49,4 +54,9 @@
 }
 .shapes-white{
     color: var(--boo-white);
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
 }
