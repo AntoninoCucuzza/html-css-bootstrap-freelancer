@@ -15,6 +15,12 @@
     background-color: aliceblue;
     height: 500px;
 }
+.debug .portfolio>.col{
+    height: 100px;
+    border: 1px solid ;
+    background-color: brown;
+}
+
 
 .debug .about{
     background-color:var(--boo-success-light);
@@ -36,10 +42,12 @@
     height: 150px;
 }
 
- */
+*/
 
 
 /* nesting */
+
+/* TEST SE IL TUO BROWSER NON SUPPORTA IL NESTING COMMENTA QUI SOTTO E DECOMMENTALA PARTE SOPRA */
 .debug {
     & main{
         background-color: black;
@@ -53,6 +61,11 @@
             background-color: aliceblue;
             height: 500px;
 
+            & .col{
+                height: 100px;
+                border: 1px solid ;
+                background-color: brown;
+            }
         }
 
         > .about{
@@ -81,20 +94,6 @@
     }
 }
 /* nesting */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
