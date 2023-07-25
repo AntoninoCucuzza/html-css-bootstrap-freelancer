@@ -1,0 +1,71 @@
+/***** region debug *****/
+
+.debug #site_header{
+    background-color: var(--boo-primary-darker);
+    height: 100px;
+}
+
+
+
+.debug {
+    & main{
+        background-color: black;
+
+        > .jumbo{
+            background-color:var(--boo-success-light);
+            height: 500px;
+        }
+
+        > .portfolio{
+            background-color: aliceblue;
+            height: 500px;
+
+        }
+
+        > .about{
+            background-color:var(--boo-success-light);
+            height: 500px;
+        }
+    
+        > .contact_me{
+            background-color:aliceblue;
+            height: 500px;
+        }
+    }
+
+    & #site_footer{
+
+        background-color: black;
+        > .footer_top{
+            background-color: var(--boo-primary-dark);
+            height: 350px;
+        }
+
+        > .footer_bot{
+            background-color: var(--boo-primary-darker);
+            height: 150px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** endregion debug *****/
