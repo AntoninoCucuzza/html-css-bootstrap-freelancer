@@ -7,6 +7,11 @@
 
 
 /* 
+[class^='col']{
+    height: 100px;
+    border: 1px solid ;
+    background-color: brown;
+}
 .debug .jumbo{
     background-color:var(--boo-success-light);
     height: 500px;
@@ -15,12 +20,6 @@
     background-color: aliceblue;
     height: 500px;
 }
-.debug .portfolio>.col{
-    height: 100px;
-    border: 1px solid ;
-    background-color: brown;
-}
-
 
 .debug .about{
     background-color:var(--boo-success-light);
@@ -49,6 +48,13 @@
 
 /* TEST SE IL TUO BROWSER NON SUPPORTA IL NESTING COMMENTA QUI SOTTO E DECOMMENTALA PARTE SOPRA */
 .debug {
+   
+    [class^='col']{
+        height: 100px;
+        border: 1px solid ;
+        background-color: brown;
+    }
+
     & main{
         background-color: black;
 
@@ -61,7 +67,7 @@
             background-color: aliceblue;
             height: 500px;
 
-            & .col{
+            & [class^='col']{
                 height: 100px;
                 border: 1px solid ;
                 background-color: brown;
@@ -71,6 +77,7 @@
         > .about{
             background-color:var(--boo-success-light);
             height: 500px;
+        
         }
     
         > .contact_me{
@@ -94,7 +101,6 @@
     }
 }
 /* nesting */
-
 
 
 
