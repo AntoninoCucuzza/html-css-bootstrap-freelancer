@@ -6,7 +6,40 @@
 }
 
 
+/* 
+.debug .jumbo{
+    background-color:var(--boo-success-light);
+    height: 500px;
+}
+.debug .portfolio{
+    background-color: aliceblue;
+    height: 500px;
+}
 
+.debug .about{
+    background-color:var(--boo-success-light);
+    height: 500px;
+}
+
+.debug .contact_me{
+    background-color:aliceblue;
+    height: 500px;
+}
+
+.debug .footer_top{
+    background-color: var(--boo-primary-dark);
+    height: 350px;
+}
+
+.debug .footer_bot{
+    background-color: var(--boo-primary-darker);
+    height: 150px;
+}
+
+ */
+
+
+/* nesting */
 .debug {
     & main{
         background-color: black;
@@ -47,7 +80,7 @@
         }
     }
 }
-
+/* nesting */
 
 
 
