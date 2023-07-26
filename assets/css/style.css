@@ -10,7 +10,6 @@ footer a{
 }
 #site_header{
     background-color: var(--boo-primary-darker);
-    height: 100px;
 }
 .jumbo{
     background-color: var(--boo-success-light);
