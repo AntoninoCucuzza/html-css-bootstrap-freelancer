@@ -33,16 +33,14 @@
                       <li class="nav-item">
                         <a class="nav-link text-uppercase" aria-current="page" href="#">Contact</a>
                       </li> 
-                   
-                     
                     </ul>
                   </div>
                 </div>
               </nav>
-
+              <!-- /nav -->
         </div>
     </header>
-    
+    <!-- /header -->
     <main>
         <section class="jumbo py-4">
             <div class="d-flex flex-column mb-3 align-items-center text-white ">
@@ -65,7 +63,7 @@
                 </div>
               </div>
         </section>
-
+        <!-- /jumbo -->
         <section class="portfolio">
             <div class="container-fluid container-md container-lg">
                 <h1 class="text-center pb-3">portfolio</h1>
@@ -102,12 +100,10 @@
                         <img class="img-fluid" src="./assets/img/submarine.png" alt="">
                     </div>
 
-                
-
                 </div>
             </div>
         </section>
-
+        <!-- /portfolio -->
         <section class="about">
             <div class="container w-75">
                 <h1 class="text-center pt-5 pb-3 text-white">About</h1>
@@ -133,16 +129,35 @@
                 </div>
             </div>
         </section>
-
+        <!-- /about -->
         <section class="contact_me">
             <div class="container w-75">
-                <div class="row">
-                    <div class="col"></div>
+                <h1 class="text-uppercase text-center pt-5 pb-3">Conatct me</h1>
+                <div class="shapes-dark d-flex justify-content-center align-items-center pb-3">
+                    <div class="linea-dark"></div>
+                    <i class="fa fa-star fa-2x mx-3" aria-hidden="true"></i>
+                    <div class="linea-dark"></div>
                 </div>
+                
+                <form class="mb-5">
+                    <div class="mb-3">
+                        <input type="email" class="px-0 form-control border-0 border-bottom rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                    </div>
+                    <div class="mb-3">
+                      <input type="password" class="px-0 form-control border-0 border-bottom rounded-0" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="px-0 form-control border-0 border-bottom rounded-0" id="exampleInputPhoneNumber" placeholder="Phone Number">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="px-0 form-control border-0 border-bottom rounded-0" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn_success">Submit</button>
+                  </form>
 
             </div>
-    </section>
-
+        </section>
+        <!-- /contact_me -->
     </main>
 
     <footer id="site_footer">
@@ -195,11 +210,13 @@
                 </div>
             </div>
         </div>
-
+        <!-- /footer_top -->
         <div class="footer_bot d-flex justify-content-center text-white p-5">
             <span>Copyright © Your Website 2019</span>
         </div>
+        <!-- /footer_bot -->
     </footer>
+    <!-- /footer -->
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>

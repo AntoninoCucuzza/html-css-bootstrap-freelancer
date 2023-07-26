@@ -23,8 +23,9 @@ footer a{
     padding: 3rem;
 }
 
-.contact_me{
-    height: 100px;
+.btn_success{
+    background-color: var(--boo-success-light);
+    color: var(--boo-white);
 }
 .footer_top{
     background-color: var(--boo-primary-dark);
